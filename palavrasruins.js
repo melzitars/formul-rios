@@ -1,4 +1,4 @@
-export const PALAVRAS_hoorriveiis = new Set([
+export const { palavrasRuins } = new Set([
     "que",
     "para",
     "com",
