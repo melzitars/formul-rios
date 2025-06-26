@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 :root { 
-  --cor-destaque: #d2dfe2; 
+  --cor-destaque: #2b0766; 
   --cor-gradiente-preto: linear-gradient( 
     113deg, 
-    #6120c3 0%, 
-    #0c4b31 44.96%, 
-    #1e2022 100% 
+    #8a57d6 0%, 
+    #032c61 44.96%, 
+    #2b4d6e 100% 
   ); 
 } 
-
 * { 
   margin: 0; 
   padding: 0; 
   font-family: Poppins; 
 } 
-
 body { 
   display: flex; 
   justify-content: center; 
@@ -25,7 +22,6 @@ body {
   height: 100vh; 
   flex-direction: column; 
 } 
-
 .container { 
   display: flex; 
   width: 65rem; 
@@ -34,7 +30,6 @@ body {
   gap: 3rem; 
   overflow: hidden; 
 } 
-
 h1 { 
   color: var(--cor-destaque); 
   text-align: center; 
@@ -42,7 +37,6 @@ h1 {
   font-weight: 600; 
   text-transform: uppercase; 
 } 
-
 #entrada-de-texto { 
   display: flex; 
   height: 12rem; 
@@ -54,14 +48,12 @@ h1 {
   background: #fff; 
   font-size: 2rem; 
 } 
-
 #entrada-de-texto::placeholder { 
   color: #828282; 
   font-size: 2rem; 
   font-weight: 400; 
   line-height: normal; 
 } 
-
 #botao-palavrachave { 
   display: flex; 
   padding: 1.25rem; 
@@ -76,7 +68,6 @@ h1 {
   font-weight: 500; 
   line-height: normal; 
 } 
-
 #resultado-palavrachave { 
   display: flex; 
   border-radius: 0.625rem; 
